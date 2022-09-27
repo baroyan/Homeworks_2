@@ -1,0 +1,4 @@
+import random
+from random import randint
+a = [random.randint(3, 6) for _ in range(50)]
+print(a)
